@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+@tailwind utilities;
+/* index.css */
+.active {
+  @apply bg-[#1ABC9C] px-3 py-2  ;
+}
