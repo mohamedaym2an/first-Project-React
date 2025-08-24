@@ -28,8 +28,8 @@ export default function Navbar() {
 
             <div className="container mx-auto flex items-center">
                 <h4 className="font-bold text-2xl uppercase ml-4">
-                    <Link to={"start"}>Start Framework
-                    </Link>
+                    <Link to="/">Start Framework</Link>
+
                 </h4>
                 <ul className="flex gap-6 font-medium text-sm uppercase ml-auto">
                     <li >

@@ -10,10 +10,12 @@ export default function Layout() {
         <>
             <Navbar />
             <div
-                className={`min-h-dvh flex justify-center items-center ${pathname === "/start" || pathname === "/about" ? "bg-[#1ABC9C]" : ""
+                className={`min-h-screen flex justify-center items-center ${pathname === "/" || pathname === "/about" ? "bg-[#1ABC9C]" : ""
                     }`}
             >
-                <div className="container text-center mb-0"> <Outlet /> </div>
+                <div className="container text-center mb-0">
+                    <Outlet />
+                </div>
             </div>
             <Footer />
         </>
